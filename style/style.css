@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #cfcfcf;
+    /* background-image: url("/img/RecipeBackgrountTest.png"); */
+    color: #3b3b3b;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    visibility: hidden;
+}
+
+nav img {
+    height: 50px;
+}
+
+#firstPage {
+    height: 100vh;
+}
+
+#firstPage h2 {
+    margin: 20px;
+}
+
+.firstPageBox {
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 15px rgba(245, 153, 232, 0.2);
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+#textBox {
+    top: 30%;
+}
+
+#scrollBtnTextBox {
+    top: 50%;
+    background-color: rgb(202, 178, 158);
+}
+
+#cont {
+    height: fit-content;
+    /* padding: 50px; */
+    /* display: flex; */
+    margin: 0 300px 0 300px;
+    /* background-color: #8A95A5; */
+    height: 100vh;
+}
+
+#recipeCont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #F0F7F4; */
+    /* margin: 50px;    */
+}
+
+/* #recipeCont div {
+    
+} */
+
+/* #topCont, #botCont div {
+     border: 2px solid black; 
+} 
+*/
+
+#topCont {
+    margin: 10px;
+    /* border: 1px solid rgb(153, 153, 153); */
+    box-shadow: 0px 0px 15px rgba(245, 153, 232, 0.2);
+    /* background-color: #F0F7F4; */
+    height: 12vh;
+    width: 51vw;
+    margin-top: 100px;
+    transition: 0.5s background-color;
+}
+
+#topCont:hover {
+    animation: hoverDelay 0.5s;
+    background-color: #b3b3b3;
+}
+
+@keyframes hoverDelay {
+    from {background-color: #cfcfcf;}
+    to {background-color: #b3b3b3;}
+}
+
+#topCont h2 {
+    margin-left: 10px;
+}
+
+#botCont {
+    display: flex;
+}
+
+#botCont #instructionsCont, #botCont #ingredientsCont {
+    height: fit-content;
+}
+
+#botCont div {
+    margin: 10px;
+    /* border: 2px black solid; */
+    background-color: #d9d9d9;
+    height: 60vh;
+    /* width: 25vw; */
+    padding: 10px;
+}
+
+#botCont #instructionsCont {
+    width: 33.5vw;
+}
+
+#botCont #ingredientsCont {
+    width: 15vw;
+    /* border: 2px solid black; */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+}
+
+/* body #header {
+    position: sticky;
+    top: 0;
+    background-color: #756D54;
+    height: 80px;
+}
+
+#header h1 {
+    color: #ABB557;
+} */
+
+
+/* footer */
+/* 
+footer {
+    border: 2px;
+}
+
+#footerCont {
+    background-color: #474056;
+} */

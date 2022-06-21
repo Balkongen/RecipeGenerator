@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1200px) {
+    
+    #botCont #instructionsCont {
+        width: 60vw;
+    }
+    
+    #botCont #ingredientsCont {
+        width: 20vw;
+    }
+
+    #cont {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    /* nav {
+        visibility: visible;
+    } */
+    
+    #botCont {
+        flex-direction: column;
+    }
+
+    #botCont #instructionsCont, #botCont #ingredientsCont {
+        width: 85vw;
+    }
+    
+    #topCont {
+        width: 90vw;
+        height: fit-content;
+    }
+}
