@@ -20,6 +20,10 @@
     /* nav {
         visibility: visible;
     } */
+
+    html {
+        line-height: 1.5;
+    }
     
     #botCont {
         flex-direction: column;
@@ -32,6 +36,15 @@
     #topCont {
         width: 90vw;
         height: fit-content;
+    }
+
+    #topCont:hover {
+        animation: none;
+        background-color: #ececec;
+    }
+
+    #topCont:active {
+        background-color: #ececec;
     }
 
     #textBox {
@@ -47,5 +60,11 @@
 @media screen and (max-height: 800px) {
     #scrollBtnTextBox {
         top: 30%;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    #scrollBtnTextBox {
+        top: 25%;
     }
 }

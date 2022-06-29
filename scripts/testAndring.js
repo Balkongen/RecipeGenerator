@@ -85,3 +85,36 @@ const penneVodka = new Recept(
     "Stek baconen och blanda sedan in alla andra ingredienser"
 );
 RECEPT.push(penneVodka);
+
+const pastaWithTomato = new Recept(
+    "Pasta with tomato sauce",
+    [
+        "200 gram penne pasta",
+        "0.5 can of crushed tomatoes",
+        "2 cloves of garlic",
+        "50 gram parmesan cheese",
+        "Salt, pepper and thyme for seasoning",
+        "olive oil"
+    ],
+    "Chop the garlic and fry it in olive oil in a pan. Fry until the garlic gets a little color then add the crushed tomatoes. Turn the heat down and let it simmer for 30 minutes. Meanwhile put on a pot of boiling water with salt and add the pasta. When the pasta is aldente add it to the sauce and mix it all together. Add some pasta water if the sauce gets too dry. Add the cheese and mix it."
+);
+RECEPT.push(pastaWithTomato);
+
+const stirFry = new Recept(
+    "Noodle stir fry",
+    [
+        "150 gram rice noodles",
+        "1 clove of garlic",
+        "1 tea spoon of minced ginger",
+        "1 egg",
+        "Japanese soy sauce",
+        "Oyster sauce",
+        "Fish sauce",
+        "Salt and pepper",
+        "Your preffered vegetables",
+    ],
+    "The important thing with stir frys is to have all the ingridients ready before you start cooking. So begin with preparing all the vegetables, garlic and ginger. <br> <br>Turn on the frying pan and put it on 6 on a scale from 0-10. Add the cooking oil. When the oil is up to temperature add the garlic and ginger. Let it cook for about 10 to 15 seconds before adding your vegetables. The thicker the chunks the more cooking time it needs. Add the egg and scramble it in the pan. Turn down the head and add the noodles, soy, oyster and fish sauce. Mix all of the ingredients."
+);
+RECEPT.push(stirFry);
+
+console.log(stirFry.instructions);
