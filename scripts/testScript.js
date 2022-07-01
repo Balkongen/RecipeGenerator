@@ -8,6 +8,7 @@ window.addEventListener("load", init);
 
 function generateRecipe() {
     clear();
+    showBotCont();
     let rnd = Math.floor(Math.random() * RECEPT.length);
 
     let current = RECEPT[rnd];
@@ -45,4 +46,9 @@ function clear() {
     while (list.firstChild) {
         list.removeChild(list.firstChild);
     }
+}
+
+function showBotCont() {
+    let div = document.getElementById("botCont");
+    div.style.visibility = "visible";
 }

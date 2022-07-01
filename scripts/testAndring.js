@@ -117,4 +117,19 @@ const stirFry = new Recept(
 );
 RECEPT.push(stirFry);
 
-console.log(stirFry.instructions);
+const chickenSandwich = new Recept(
+    "Chicken sandwich",
+    [
+        "150 grams of chicken breast",
+        "Bread of your choice",
+        "4 cherry tomatoes",
+        "Mayonaise",
+        "Curry spice mix",
+        "Lettuce",
+        "Bacon",
+        "Salt and pepper",
+        "1 egg"
+    ],
+    "Start with frying the bread with butter in a pan. Slice the chicken breast so you have a thin long piece that can cover the whole bread. Fry the chicken. Meanwhile you can prepare the mayonaise. <br> <br>Mix the mayonaise, curry mix, salt and pepepr togther. Feel free to add other spices or use another sauce.<br> <br>Fry the egg and bacon. Assemble the sandwich by covering the bread slices with the mayonaise, then add the rest of the ingredients however you prefer."
+);
+RECEPT.push(chickenSandwich);

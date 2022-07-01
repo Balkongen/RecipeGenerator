@@ -53,18 +53,18 @@
     }
 
     #scrollBtnTextBox {
-        top: 40%;
+        top: 30%;
     }
 }
 
 @media screen and (max-height: 800px) {
     #scrollBtnTextBox {
-        top: 30%;
+        top: 22%;
     }
 }
 
 @media screen and (max-height: 700px) {
     #scrollBtnTextBox {
-        top: 25%;
+        top: 20%;
     }
 }

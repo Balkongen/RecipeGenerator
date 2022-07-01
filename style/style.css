@@ -99,6 +99,7 @@ nav img {
 
 #botCont {
     display: flex;
+    visibility: hidden;
 }
 
 #botCont #instructionsCont, #botCont #ingredientsCont {
@@ -130,25 +131,3 @@ nav img {
 ul li {
     padding: 5px;
 }
-
-/* body #header {
-    position: sticky;
-    top: 0;
-    background-color: #756D54;
-    height: 80px;
-}
-
-#header h1 {
-    color: #ABB557;
-} */
-
-
-/* footer */
-/* 
-footer {
-    border: 2px;
-}
-
-#footerCont {
-    background-color: #474056;
-} */
