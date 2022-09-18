@@ -118,7 +118,7 @@ const stirFry = new Recept(
 RECEPT.push(stirFry);
 
 const chickenSandwich = new Recept(
-    "Chicken sandwich",
+    "Chicken BLT",
     [
         "150 grams of chicken breast",
         "Bread of your choice",
@@ -126,6 +126,7 @@ const chickenSandwich = new Recept(
         "Mayonaise",
         "Curry spice mix",
         "Lettuce",
+        "Tomato",
         "Bacon",
         "Salt and pepper",
         "1 egg"
@@ -133,3 +134,36 @@ const chickenSandwich = new Recept(
     "Start with frying the bread with butter in a pan. Slice the chicken breast so you have a thin long piece that can cover the whole bread. Fry the chicken. Meanwhile you can prepare the mayonaise. <br> <br>Mix the mayonaise, curry mix, salt and pepepr togther. Feel free to add other spices or use another sauce.<br> <br>Fry the egg and bacon. Assemble the sandwich by covering the bread slices with the mayonaise, then add the rest of the ingredients however you prefer."
 );
 RECEPT.push(chickenSandwich);
+
+const pastaSalsicca = new Recept(
+    "Pasta salsiccia",
+    [
+        "150 grams Penne pasta",
+        "100 grams salsiciia",
+        "0.5 onions",
+        "1 clove of garlic",
+        "1 table spoon of tomato paste",
+        "Chili",
+        "Thyme, salt and pepper",
+        "Parmesan cheese"
+    ],
+    "Take out the meat from the salsiccia and put it in a frying pan. Fry until the meat has gotten som color, then add the diced onion and garlic.<br><br>Put on a pot with salted water the let it heat it up to a boil. Add the pasta. Add the rest of the ingredients to the frying pan. When the pasta is aldente add it to the rest of the ingredients and mix it up. Add pastawater and parmesan to make the dish creamy."
+);
+RECEPT.push(pastaSalsicca);
+
+const breakfastBurrito = new Recept(
+    "Breakfast burrito",
+    [
+        "70 grams of bacon",
+        "0.5 onions",
+        "1 potato",
+        "1 tortilla",
+        "1 egg",
+        "Cheese",
+        "Mayonaise",
+        "Sriracha",
+    ],
+    "Chop the onion in slices and grate the potatos. Then frying the bacon in a pan. Make a hasbrown and use the excess fat to fry the potato and the onion.<br><br>Crack open an egg the stir it in the pan. After ten seconds or so put the tortilla on it. Then flip it and put all of the ingredients in it."
+);
+RECEPT.push(breakfastBurrito);
+console.log(RECEPT.length);
