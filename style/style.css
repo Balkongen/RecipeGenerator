@@ -38,13 +38,16 @@ nav img {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 15px rgba(205, 205, 205, 0.6);
-    margin: 20px;
+    /* margin: 20px 300px 20px 300px; */
+    width: 51vw;
+    margin: 0 auto;
     padding: 10px;
     position: relative;
+    
 }
 
 #textBox {
-    top: 20%;
+    top: 5%;
 }
 
 #scrollBtnTextBox {
@@ -119,14 +122,13 @@ nav img {
     width: 33.5vw;
 }
 
-#botCont #ingredientsCont {
-    width: 15vw;
-    /* border: 2px solid black; */
+#instructionsCont p {
+    padding: 5px 10px 0 10px;
 }
 
-/* ul {
-    list-style: none;
-} */
+#botCont #ingredientsCont {
+    width: 15vw;
+}
 
 ul li {
     padding: 5px;

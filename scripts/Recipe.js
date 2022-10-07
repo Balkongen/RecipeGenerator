@@ -166,4 +166,3 @@ const breakfastBurrito = new Recept(
     "Chop the onion in slices and grate the potatos. Then frying the bacon in a pan. Make a hasbrown and use the excess fat to fry the potato and the onion.<br><br>Crack open an egg the stir it in the pan. After ten seconds or so put the tortilla on it. Then flip it and put all of the ingredients in it."
 );
 RECEPT.push(breakfastBurrito);
-console.log(RECEPT.length);

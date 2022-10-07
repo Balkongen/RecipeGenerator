@@ -21,6 +21,10 @@
         visibility: visible;
     } */
 
+    .firstPageBox {
+        width: 85vw;
+    }
+
     html {
         line-height: 1.5;
     }
