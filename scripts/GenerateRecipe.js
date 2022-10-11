@@ -9,8 +9,8 @@ window.addEventListener("load", init);
 function generateRecipe() {
     clear();
     showBotCont();
+    
     let rnd = Math.floor(Math.random() * RECEPT.length);
-
     let current = RECEPT[rnd];
     printRecipe(current);
 }
