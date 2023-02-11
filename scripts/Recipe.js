@@ -18,8 +18,6 @@ class Recept {
         this.instructions = instructions;
     }
 
-    // metoden funkar nu
-    // använda substring istället för charAt() för att slippa konvertering från char till string?? minskar tiden??
     changeIngredientsAmount(factor) {
         for (let i = 0; i < this.ingredients.length; i++) {
             let amount = this.ingredients[i].charAt(0);

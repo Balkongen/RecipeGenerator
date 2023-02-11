@@ -1,4 +1,3 @@
-// Globala variabler
 var scrollBtn;
 
 function checkBtn() {

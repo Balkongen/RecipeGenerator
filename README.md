@@ -1,1 +1,0 @@
-1. fixa en pil så att användaren förstår att den ska klicka på knappen (den första gången).

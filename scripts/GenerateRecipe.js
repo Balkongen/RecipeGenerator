@@ -26,12 +26,6 @@ function printRecipe(current) {
 
 function printIngredients(current) {
     let list = document.getElementById("ingList");
-    // for (const [ingredient, amount] of current.ingredients) {
-    //     let li = document.createElement("li");
-    //     list.appendChild(li);
-
-    //     li.innerHTML = ingredient + " " + amount;
-    // }
 
     for (let i of current.ingredients) {
         let li = document.createElement("li");
