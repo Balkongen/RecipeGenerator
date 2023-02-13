@@ -1,4 +1,4 @@
-class Recept {
+class Recipe {
     
     name;
     ingredients = [];
@@ -43,65 +43,62 @@ class Recept {
 // All recipes
 const RECEPT = [];
 
-const bolloIngr = [];
-bolloIngr.push("1 buljongtärning");
-bolloIngr.push("1 burk tomatsås");
-bolloIngr.push("500 gram blandfärs");
-bolloIngr.push("1 gullök");
-bolloIngr.push("3 vitlöksklyftor");
+const cacioEPeppe = new Recipe(
+    "Cacio e peppe",
+    [
+        "100 grams parmesan", 
+        "1 grams black pepper", 
+        "200 grams pasta of your choice"
+    ],
+    "Cook the pasta and mix all the ingridients in a frying pan"
+);
 
-const bolloIns = "Hacka alla grönsaker, stek köttfärsen och sedan blanda0 ihop allt";
-const bollo = new Recept("Bollo", bolloIngr, bolloIns);
-RECEPT.push(bollo);
-
-const cacioIng = ["100 gram parmesan", "1 gram svartpeppar", "250gram valfri pasta"];
-const cacioIns = "Koka pastan och blanda sedan in allt i stekpannan";
-const cacioEPeppe = new Recept("Cacio e peppe", cacioIng, cacioIns);
 RECEPT.push(cacioEPeppe);
 
-const pastaPesto = new Recept(
+const pastaPesto = new Recipe(
     "Pasta Pesto",
     [
-        "0.5 kruka basilika",
-        "5 gram pinjenötter",
-        "7 cl olivolja",
-        "30 gram parmesan"
+        "0.5 pot of basil",
+        "5 grams pine nuts",
+        "7 cl olive oil",
+        "30 grams parmesan",
+        "200 grams pasta of your choice"
     ],
-    "Mixa alla ingredienser med en stavmixer. Koka sedan pastan och blanda ihop det i stekpannan"
+    "Mix all the ingredients in a blender. Boil the pasta, mix it all together in a frying pan."
 );
 RECEPT.push(pastaPesto);
 
-const penneVodka = new Recept(
+const penneVodka = new Recipe(
     "Penne vodka",
     [
-        "200 gram penne pasta",
-        "70 gram tärnad bacon",
-        "skvätt vodka",
-        "100 gram tomatsås",
-        "1,5 dl grädde"
+        "200 grams penne pasta",
+        "70 grams diced bacon",
+        "A splash of vodka",
+        "100 grams tomato sauce",
+        "1,5 dl cream"
     ],
-    "Stek baconen och blanda sedan in alla andra ingredienser"
+    "Boil the pasta, fry the bacon, add the vodka and then mix all the ingredients together."
 );
 RECEPT.push(penneVodka);
 
-const pastaWithTomato = new Recept(
+const pastaWithTomato = new Recipe(
     "Pasta with tomato sauce",
     [
-        "200 gram penne pasta",
+        "200 grams penne pasta",
         "0.5 can of crushed tomatoes",
         "2 cloves of garlic",
-        "50 gram parmesan cheese",
+        "50 grams parmesan cheese",
         "Salt, pepper and thyme for seasoning",
-        "olive oil"
+        "Olive oil"
     ],
     "Chop the garlic and fry it in olive oil in a pan. Fry until the garlic gets a little color then add the crushed tomatoes. Turn the heat down and let it simmer for 30 minutes. Meanwhile put on a pot of boiling water with salt and add the pasta. When the pasta is aldente add it to the sauce and mix it all together. Add some pasta water if the sauce gets too dry. Add the cheese and mix it."
 );
 RECEPT.push(pastaWithTomato);
 
-const stirFry = new Recept(
+const stirFry = new Recipe(
     "Noodle stir fry",
     [
-        "150 gram rice noodles",
+        "150 grams rice noodles",
         "1 clove of garlic",
         "1 tea spoon of minced ginger",
         "1 egg",
@@ -115,7 +112,7 @@ const stirFry = new Recept(
 );
 RECEPT.push(stirFry);
 
-const chickenSandwich = new Recept(
+const chickenSandwich = new Recipe(
     "Chicken BLT",
     [
         "150 grams of chicken breast",
@@ -133,7 +130,7 @@ const chickenSandwich = new Recept(
 );
 RECEPT.push(chickenSandwich);
 
-const pastaSalsicca = new Recept(
+const pastaSalsicca = new Recipe(
     "Pasta salsiccia",
     [
         "150 grams Penne pasta",
@@ -149,7 +146,7 @@ const pastaSalsicca = new Recept(
 );
 RECEPT.push(pastaSalsicca);
 
-const breakfastBurrito = new Recept(
+const breakfastBurrito = new Recipe(
     "Breakfast burrito",
     [
         "70 grams of bacon",
