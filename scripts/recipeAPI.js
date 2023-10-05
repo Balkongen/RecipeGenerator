@@ -1,4 +1,6 @@
 var clickDiv;
+const URL = "http://localhost:8080/getRandRecipe"
+
 
 function init() {
     clickDiv = document.getElementById("topCont");
@@ -8,7 +10,7 @@ window.addEventListener("load", init);
 
 function getRecipe() {
     
-    fetch("http://localhost:8080/getRandRecipe").then(res => {
+    fetch(URL).then(res => {
         return res.json()
     }).then(data => {
         clear()
